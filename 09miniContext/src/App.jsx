@@ -7,8 +7,8 @@ import Profile from './components/Profile'
 const App = () => {
   return (
     <UserContextProvider>
-      <Login/>
-      <Profile/>
+      <Login />
+      <Profile />
     </UserContextProvider>
   )
 }
