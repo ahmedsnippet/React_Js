@@ -1,8 +1,15 @@
 import React from 'react'
+import './App.css'
+import UserContextProvider from './context/UsercontextProvider'
+import Login from './components/Login'
+import Profile from './components/Profile'
 
 const App = () => {
   return (
-    <div>App</div>
+    <UserContextProvider>
+      <Login/>
+      <Profile/>
+    </UserContextProvider>
   )
 }
 
